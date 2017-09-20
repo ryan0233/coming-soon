@@ -1,5 +1,5 @@
 html{
-  background-color: #dddddd;
+  background-color: #222;
 }
 
 body {
@@ -14,7 +14,7 @@ img {
 main {
   text-align: center;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0;
   background-color: #eee;
 
 
@@ -28,11 +28,20 @@ h1 {
 }
 
 .line-separator {
-  height: 1px;
+  height: 1.75px;
   background-color: #cccccc;
-  padding-top: 0;
+  padding: 0;
   max-width: 25rem;
   align: center;
+}
+
+.deux {
+  background-color: #ddd;
+  padding-bottom: .25rem;
+}
+
+.micro {
+  padding-top: 1rem;
 }
 
 @media only screen and (min-width: 650px) {
